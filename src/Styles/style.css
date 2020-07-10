@@ -1,0 +1,162 @@
+/* Navbar */
+
+.header {
+	font-family: "Oxygen", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	height: 72px;
+	background-color: #070707;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+
+.header-logo {
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	color: #fffdfd;
+	margin-left: 5%;
+}
+
+.header-menu {
+	margin-left: auto;
+	display: flex;
+	margin-right: 4%;
+}
+
+.header-menu-button {
+	padding: 3px;
+	font-size: 12px;
+	font-weight: 700;
+	height: 40px;
+	width: 90px;
+	background-color: rgb(192, 192, 194);
+	color: black;
+	margin-right: 8px;
+	border-radius: 5px;
+	border: 1px solid rgb(107, 107, 107);
+}
+
+/* Main */
+
+label {
+	font-weight: 700;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 25px;
+}
+
+input {
+	margin-top: 8px;
+
+	border: 1px solid #f5f5f5;
+	font-size: 12px;
+	padding: 8px;
+}
+textarea {
+	margin-top: 8px;
+	padding: 8px;
+	border: 1px solid #f5f2f2;
+}
+
+select {
+	padding: 4px;
+
+	border: none;
+	margin-top: 8px;
+	background-color: rgb(243, 240, 245);
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+
+	max-width: 100%;
+	padding: 15px;
+	background-color: #ddd;
+}
+
+.main-form {
+	display: flex;
+	top: 72px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	opacity: 1;
+	min-width: 305px;
+	width: 16%;
+	background-color: rgb(168, 168, 168);
+	flex-direction: column;
+	padding: 20px;
+	border-top-left-radius: 5px;
+	border-left: 1px solid rgb(236, 235, 235);
+	border-top: 1px solid rgb(255, 255, 255);
+}
+
+/* column */
+
+.column {
+	width: 60%;
+	box-sizing: border-box;
+	padding: 20px;
+	min-width: 365px;
+	margin-left: 10px;
+	width: 30%;
+	border: 1px solid rgb(173, 173, 173);
+	box-shadow: 5px 5px 10px 0px rgba(99, 99, 99, 0.384);
+	min-width: 310px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.column-header {
+	font-weight: 700;
+	font-size: 36px;
+	margin-bottom: 18px;
+	color: rgb(15, 15, 15);
+	padding: 3px;
+	border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+/* Cards */
+
+.card {
+	color: black;
+	margin-bottom: 18px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.384);
+	background-color: #adabab;
+	padding: 10px;
+	/* display: flex; */
+	box-sizing: border-box;
+}
+
+.card-left {
+	font-size: 14px;
+	font-weight: 400;
+
+	box-sizing: border-box;
+	background-color: #eea9a9;
+
+	text-align: center;
+}
+
+.card-left-header {
+	padding: 4px;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 1px solid red;
+}
+
+.card-left-text {
+	line-height: 1.5;
+	padding: 10px;
+}
+
+.card-right {
+	background-color: #525050;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	color: honeydew;
+}
